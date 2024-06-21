@@ -290,7 +290,7 @@ namespace CinemaWeb.Areas.Admin.Controllers
             return View(movy);
         }
 
-        
+
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Edit([Bind(Include = "id,title,description,director_id,type_id,release_date,end_date,duration_minutes,country_id,created_at,movie_status,url_image,rating,url_trailer,url_large_image,ActorNames")] movy movy, HttpPostedFileBase fileImage, HttpPostedFileBase fileLargeImage)
@@ -330,6 +330,32 @@ namespace CinemaWeb.Areas.Admin.Controllers
                     try
                     {
                         db.Entry(movy).State = EntityState.Modified;
+                        if (movy.ActorNames != null && movy.ActorNames.Any())
+                        {
+                            foreach (var actorName in movy.ActorNames)
+                            {
+                                var actor = db.actors.FirstOrDefault(a => a.actor_name == actorName);
+                                if (actor == null)
+                                {
+                                    actor = new actor
+                                    {
+                                        actor_name = actorName,
+                                        title = "Đang cập nhật",
+                                        description = "Đang cập nhật",
+                                        country_id = 1, // You might want to set this to a valid default country_id or manage it according to your application logic
+                                        actor_img = "https://cdn.galaxycine.vn/media/2021/12/27/image-2021_1640588706930.png"
+                                    };
+                                    db.actors.Add(actor);
+                                }
+
+                                var movieActor = new movie_actor
+                                {
+                                    movie_id = existingMovie.id,
+                                    actor_id = actor.id
+                                };
+                                db.movie_actor.Add(movieActor);
+                            }
+                        }
                         db.SaveChanges();
                         return RedirectToAction("Index");
                     }

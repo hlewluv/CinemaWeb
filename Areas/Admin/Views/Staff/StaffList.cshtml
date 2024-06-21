@@ -377,42 +377,42 @@
         });
     })
 
-    //$(document).ready(function () {
-    //    $(".subform input").click(function () {
-    //        $(".error-message").text("");
-    //    });
+    $(document).ready(function () {
+        $(".subform input").click(function () {
+            $(".error-message").text("");
+        });
 
-    //    $('#staffBirthDate').change(function () {
-    //        dateofbirth = $('#staffBirthDate').val();
-    //        console.log("date " + dateofbirth)
-    //    })
+        $('#staffBirthDate').change(function () {
+            dateofbirth = $('#staffBirthDate').val();
+            console.log("date " + dateofbirth)
+        })
 
-    //    $('.updateBtn').click(function (e) {
-    //        var name = $('.staff-name').val();
-    //        var email = $('.staff-email').val();
-    //        console.log("email " + email)
-    //        var pass = $('.staff-pass').val();
+        $('.updateBtn').click(function (e) {
+            var name = $('.staff-name').val();
+            var email = $('.staff-email').val();
+            console.log("email " + email)
+            var pass = $('.staff-pass').val();
 
-    //        $.ajax({
-    //            url: '/Admin/Staff/UpdateStaffInfor',
-    //            type: 'POST',
-    //            data: { staffId: staffId, name: name, email: email, dateofbirth: dateofbirth, pass: pass },
-    //            success: function (response) {
-    //                if (response.success) {
-    //                    var row = $('tr[data-staff-id="' + staffId + '"]');
-    //                    row.find('td:eq(0)').text(name);
-    //                    row.find('td:eq(1)').text(new Date(dateofbirth).toLocaleDateString('vi-VN'));
-    //                    row.find('td:eq(2)').text(email);
+            $.ajax({
+                url: '/Admin/Staff/UpdateStaffInfor',
+                type: 'POST',
+                data: { staffId: staffId, name: name, email: email, dateofbirth: dateofbirth, pass: pass },
+                success: function (response) {
+                    if (response.success) {
+                        var row = $('tr[data-staff-id="' + staffId + '"]');
+                        row.find('td:eq(0)').text(name);
+                        row.find('td:eq(1)').text(new Date(dateofbirth).toLocaleDateString('vi-VN'));
+                        row.find('td:eq(2)').text(email);
 
-    //                    $('#detail').modal('hide');
-    //                    showtoastmess(true, 'Thành công', 'Cập nhật thông tin nhân viên thành công')
-    //                } else {
-    //                    $('.error-message').text(response.message);
-    //                }
-    //            }
-    //        });
-    //    });
-    //});
+                        $('#detail').modal('hide');
+                        showtoastmess(true, 'Thành công', 'Cập nhật thông tin nhân viên thành công')
+                    } else {
+                        $('.error-message').text(response.message);
+                    }
+                }
+            });
+        });
+    });
 
     $(document).on('click', '.deleteBtn', function () {
         var row = $('tr[data-staff-id="' + staffId + '"]');

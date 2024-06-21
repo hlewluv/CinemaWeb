@@ -566,47 +566,47 @@ namespace CinemaWeb.Areas.User.Controllers
             return View();
         }
 
-        [HttpGet]
-        public ActionResult GetDiscount()
-        {
-            var currentUser = (user)Session["user"];
-            DateTime currentDate = DateTime.Now;
+        //[HttpGet]
+        //public ActionResult GetDiscount()
+        //{
+        //    var currentUser = (user)Session["user"];
+        //    DateTime currentDate = DateTime.Now;
 
-            if (currentUser.created.Value.AddMonths(1) <= currentDate)
-            {
-                var invoice = db.invoices.Where(x => x.user_id == currentUser.id).ToList();
-                var invoicePerYear = invoice
-                    .GroupBy(t => t.day_create.Value.Year)
-                    .Select(g => g.Key)
-                    .ToList();
+        //    if (currentUser.created.Value.AddMonths(1) <= currentDate)
+        //    {
+        //        var invoice = db.invoices.Where(x => x.user_id == currentUser.id).ToList();
+        //        var invoicePerYear = invoice
+        //            .GroupBy(t => t.day_create.Value.Year)
+        //            .Select(g => g.Key)
+        //            .ToList();
 
-                if (invoicePerYear.Contains(currentDate.Year))
-                {
-                    var discountList = db.user_discount.Where(x => x.user_id == currentUser.id && x.start_date.Value.Month == currentDate.Month && x.discount_status == false)
-                                               .Select(y => new
-                                               {
-                                                   disId = y.discount_id,
-                                                   disStt = y.discount_status,
-                                                   disTitle = y.discount.title,
-                                                   disItem = y.discount.discount1,
-                                                   disDes = y.discount.dis_description,
-                                                   disEnd = y.end_date,
-                                                   disStart = y.start_date
-                                               })
-                                               .ToList();
+        //        if (invoicePerYear.Contains(currentDate.Year))
+        //        {
+        //            var discountList = db.user_discount.Where(x => x.user_id == currentUser.id && x.start_date.Value.Month == currentDate.Month && x.discount_status == false)
+        //                                       .Select(y => new
+        //                                       {
+        //                                           disId = y.discount_id,
+        //                                           disStt = y.discount_status,
+        //                                           disTitle = y.discount.title,
+        //                                           disItem = y.discount.discount1,
+        //                                           disDes = y.discount.dis_description,
+        //                                           disEnd = y.end_date,
+        //                                           disStart = y.start_date
+        //                                       })
+        //                                       .ToList();
 
-                    return Json(discountList, JsonRequestBehavior.AllowGet);
-                }
-                else
-                {
-                    return Json(new { success = false }, JsonRequestBehavior.AllowGet);
-                }
-            }
-            else
-            {
-                return Json(new { success = false}, JsonRequestBehavior.AllowGet);
-            }
-        }
+        //            return Json(discountList, JsonRequestBehavior.AllowGet);
+        //        }
+        //        else
+        //        {
+        //            return Json(new { success = false }, JsonRequestBehavior.AllowGet);
+        //        }
+        //    }
+        //    else
+        //    {
+        //        return Json(new { success = false}, JsonRequestBehavior.AllowGet);
+        //    }
+        //}
 
         public ActionResult MovieReview() 
         {
