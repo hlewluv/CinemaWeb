@@ -1,4 +1,3 @@
-![image](https://github.com/hlewluv/CinemaWeb/assets/153503120/08de5e33-a0b2-4fdf-9c77-53401ffc4f99)
 OHAYOU CINEMA <3
 👉 Giới thiệu dự án 👈
 Mô tả dự án:
