@@ -1,4 +1,5 @@
-![image](https://github.com/hlewluv/CinemaWeb/assets/153503120/7a00ac83-cd0b-4b00-b533-2e01e6ed5c33)OHAYOU CINEMA <3
+![image](https://github.com/hlewluv/CinemaWeb/assets/153503120/08de5e33-a0b2-4fdf-9c77-53401ffc4f99)
+OHAYOU CINEMA <3
 👉 Giới thiệu dự án 👈
 Mô tả dự án:
 Đề tài "Xây Dựng Web Quản Lý Rạp Chiếu Phim" tập trung vào việc phát triển một hệ thống quản lý toàn diện cho rạp chiếu phim thông qua nền tảng web. Hệ thống này nhằm mục đích tự động hóa các quy trình quản lý, cải thiện trải nghiệm khách hàng, và tối ưu hóa hoạt động kinh doanh của rạp chiếu phim. 
@@ -43,11 +44,52 @@ Với sự phát triển của công nghệ thông tin và nhu cầu giải trí
   Giao diện cấp lại mật khẩu: ![image](https://github.com/hlewluv/CinemaWeb/assets/153503120/808d0e90-d33c-4967-91b2-bb4cb4813d41)
   Giao diện đăng ký: ![image](https://github.com/hlewluv/CinemaWeb/assets/153503120/25eea62d-7178-4973-ba7c-f5c95ae0a4ba)
   Giao diện xác thực email khi đăng ký tài khoản: ![image](https://github.com/hlewluv/CinemaWeb/assets/153503120/8e0b1d58-d68c-448b-8fc4-12b19c5938a4)
+******USER - KHÁCH HÀNG*****
   Giao diện khách hàng khi đăng nhập thành công: ![image](https://github.com/hlewluv/CinemaWeb/assets/153503120/35443c43-8502-4ed1-9f11-1992b26fb8b0)
   Giao diện khi xem thể loại phim trong Góc Điện Ảnh: ![image](https://github.com/hlewluv/CinemaWeb/assets/153503120/9eabc14a-cca0-4159-ab28-a55c6af648de)
   Lọc phim theo các mục: ![image](https://github.com/hlewluv/CinemaWeb/assets/153503120/c24e17da-04ab-42b7-af1f-cfe243faae36)
   User có thể xem thông tin cá nhân: ![image](https://github.com/hlewluv/CinemaWeb/assets/153503120/73d32d02-1c14-4618-8109-63cbd254959a)
-  Giao diện sửa thông tin cá nhân: 
+  Giao diện sửa thông tin cá nhân: ![image](https://github.com/hlewluv/CinemaWeb/assets/153503120/cb19a661-26c2-4ebe-8105-935d628915da)
+  Giao diện lịch sử giao dịch: ![image](https://github.com/hlewluv/CinemaWeb/assets/153503120/038537c5-2f5f-4136-a15e-44281d1348f9)
+  Giao diện thông báo: ![image](https://github.com/hlewluv/CinemaWeb/assets/153503120/dd14f7e7-e114-448c-aa92-5882751492f0)
+  Xem thông tin chi tiết phim: ![image](https://github.com/hlewluv/CinemaWeb/assets/153503120/4664e4f8-4409-4464-ad95-cbabbd6172b3)
+  Xem trailer phim: ![image](https://github.com/hlewluv/CinemaWeb/assets/153503120/5ebe6533-e8a3-49ec-9f5c-2abb2158eb1a)
+  Giao diện mua vé:![image](https://github.com/hlewluv/CinemaWeb/assets/153503120/5d8166f3-3c7f-43e6-b3e4-d22b8afbe96b)
+  Chọn suất chiếu và ghế: ![image](https://github.com/hlewluv/CinemaWeb/assets/153503120/d480fc86-e376-4aac-a6cd-e52e011eec3c)
+  Xác nhận thông tin đặt vé: ![image](https://github.com/hlewluv/CinemaWeb/assets/153503120/85338f47-651d-4b23-9dd1-464f3da53bf5)
+  Chọn phương thức thanh toán: ![image](https://github.com/hlewluv/CinemaWeb/assets/153503120/cda5c126-4ab6-46d6-9c41-3a186f3a41fe)
+  Nhập thông tin thanh toán: ![image](https://github.com/hlewluv/CinemaWeb/assets/153503120/23237416-2d7e-428e-a59b-50995c86f058)
+  Thanh toán thất bại: ![image](https://github.com/hlewluv/CinemaWeb/assets/153503120/fa0e158b-8546-4093-b173-817762ca2fcd)
+ Thanh toán thành công: ![image](https://github.com/hlewluv/CinemaWeb/assets/153503120/847c86a8-ae1b-4bb8-955e-57bc694f0eda)
+******ADMIN- QUẢN LÝ*****
+  Giao diện Admin sau khi đăng nhập: ![image](https://github.com/hlewluv/CinemaWeb/assets/153503120/6aba9d3a-46c1-438e-945b-f761bff0e761)
+  Quản lý suất chiếu: ![image](https://github.com/hlewluv/CinemaWeb/assets/153503120/b61ec368-9536-4594-a3f8-69d0c64899e0)
+  Xem chi tiết suất chiếu: ![image](https://github.com/hlewluv/CinemaWeb/assets/153503120/095d2914-f55e-4595-adba-2d9c439722e2)
+  Xóa suất chiếu: ![image](https://github.com/hlewluv/CinemaWeb/assets/153503120/54efd368-418e-4468-b3db-5f6aec331863)
+  Thêm suất chiếu: ![image](https://github.com/hlewluv/CinemaWeb/assets/153503120/ff164345-b21b-421b-abe4-61475f6a203f)
+  Quản lý thông tin phim: ![image](https://github.com/hlewluv/CinemaWeb/assets/153503120/8729fdf5-8fd1-4b98-bf83-c55b39513187)
+  Thêm, sửa, xoá phim: 
+![image](https://github.com/hlewluv/CinemaWeb/assets/153503120/0e077118-d013-41af-a64b-fb523ac245a2)
+![image](https://github.com/hlewluv/CinemaWeb/assets/153503120/893f1c5e-d2cd-436e-b163-7b3d1b2f97bf)
+  Thêm, xóa, xem và tìm kiếm chi tiết thông tin nhân viên:![image](https://github.com/hlewluv/CinemaWeb/assets/153503120/49519327-92bd-433d-b414-1a9a50088f9a)
+  ![image](https://github.com/hlewluv/CinemaWeb/assets/153503120/c1ced008-bfe1-42b6-821f-78379109db70)
+![image](https://github.com/hlewluv/CinemaWeb/assets/153503120/82b095a4-0beb-4bb5-a68e-18c205422e73)
+![image](https://github.com/hlewluv/CinemaWeb/assets/153503120/bf75f69d-4945-446a-86b0-80ea29e50680)
+ 	Xem và tìm kiếm thông tin khách hàng:![image](https://github.com/hlewluv/CinemaWeb/assets/153503120/7daa3735-c506-4e4d-a3fb-782c06a3b812)
+  Quản lý doanh thu: ![image](https://github.com/hlewluv/CinemaWeb/assets/153503120/8a55dde2-f1e7-4bdc-bff3-63bfef9d1d0a)
+  Thống kê số lượng vé và doanh thu: ![image](https://github.com/hlewluv/CinemaWeb/assets/153503120/f002223c-2b29-449f-a51b-4a0a3bc4608f)
+  
+******STAFF- NHÂN VIÊN*****
+Giao diện khi quét mã QR thành công: ![image](https://github.com/hlewluv/CinemaWeb/assets/153503120/4bf1406d-acf4-4f5f-a090-1feafb3874d1)
+
+****************************************************************
+Author:
+Lê Tự Bội Hoàng
+Hồ Thanh Huy
+Võ Lê Quyên
+
+
+
   
 
 
