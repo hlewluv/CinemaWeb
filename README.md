@@ -105,9 +105,9 @@ Với sự phát triển của công nghệ thông tin và nhu cầu giải trí
 - **Quản lý thông tin phim:**  
   ![Quản lý thông tin phim](https://github.com/hlewluv/CinemaWeb/assets/153503120/8729fdf5-8fd1-4b98-bf83-c55b39513187)  
 - **Thêm, sửa, xoá phim:**  
-  ![Cập nhật phim]!(https://github.com/hlewluv/CinemaWeb/assets/153503120/dcaaecd1-9f07-49b6-a206-e0b71fde734f)
-  ![Thêm phim]![(https://github.com/hlewluv/CinemaWeb/assets/153503120/e4c0217a-ab1f-42af-840a-40cb095b0060)
-  ![Thêm phim]!(https://github.com/hlewluv/CinemaWeb/assets/153503120/e241ab48-ebed-49fd-ba6c-01a3ca1efe34)
+  ![Cập nhật phim](https://github.com/hlewluv/CinemaWeb/assets/153503120/dcaaecd1-9f07-49b6-a206-e0b71fde734f)
+  ![Thêm phim][(https://github.com/hlewluv/CinemaWeb/assets/153503120/e4c0217a-ab1f-42af-840a-40cb095b0060)
+  ![Thêm phim](https://github.com/hlewluv/CinemaWeb/assets/153503120/e241ab48-ebed-49fd-ba6c-01a3ca1efe34)
 
  
 - **Thêm, xóa, xem và tìm kiếm chi tiết thông tin nhân viên:**  
