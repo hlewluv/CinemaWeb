@@ -41,6 +41,7 @@ Với sự phát triển của công nghệ thông tin và nhu cầu giải trí
 
 - **Biểu đồ cơ sở dữ liệu quan hệ:**  
   ![Biểu đồ cơ sở dữ liệu quan hệ](https://github.com/hlewluv/CinemaWeb/assets/153503120/8d86b55f-caac-4f13-bd1a-32bce164434c)  
+- **Slide dự án:** https://www.canva.com/design/DAGH6uxpxYI/xoNk0n6kHSicgRIW1Odu7g/edit?utm_content=DAGH6uxpxYI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton 
 
 - **Hình ảnh chụp màn hình:**  
   - **Giao diện chính của chương trình:**  
@@ -58,7 +59,7 @@ Với sự phát triển của công nghệ thông tin và nhu cầu giải trí
 
 - **Giao diện khách hàng khi đăng nhập thành công:**  
   ![Giao diện khách hàng khi đăng nhập thành công](https://github.com/hlewluv/CinemaWeb/assets/153503120/35443c43-8502-4ed1-9f11-1992b26fb8b0)  
-- **Giao diện khi xem thể loại phim trong Góc Điện Ảnh:**  
+- **Giao diện xem thể loại phim:**  
   ![Giao diện khi xem thể loại phim trong Góc Điện Ảnh](https://github.com/hlewluv/CinemaWeb/assets/153503120/9eabc14a-cca0-4159-ab28-a55c6af648de)  
 - **Lọc phim theo các mục:**  
   ![Lọc phim theo các mục](https://github.com/hlewluv/CinemaWeb/assets/153503120/c24e17da-04ab-42b7-af1f-cfe243faae36)  
@@ -104,8 +105,11 @@ Với sự phát triển của công nghệ thông tin và nhu cầu giải trí
 - **Quản lý thông tin phim:**  
   ![Quản lý thông tin phim](https://github.com/hlewluv/CinemaWeb/assets/153503120/8729fdf5-8fd1-4b98-bf83-c55b39513187)  
 - **Thêm, sửa, xoá phim:**  
-  ![Thêm phim](https://github.com/hlewluv/CinemaWeb/assets/153503120/0e077118-d013-41af-a64b-fb523ac245a2)  
-  ![Sửa phim](https://github.com/hlewluv/CinemaWeb/assets/153503120/893f1c5e-d2cd-436e-b163-7b3d1b2f97bf)  
+  ![Cập nhật phim]!(https://github.com/hlewluv/CinemaWeb/assets/153503120/dcaaecd1-9f07-49b6-a206-e0b71fde734f)
+  ![Thêm phim]![(https://github.com/hlewluv/CinemaWeb/assets/153503120/e4c0217a-ab1f-42af-840a-40cb095b0060)
+  ![Thêm phim]!(https://github.com/hlewluv/CinemaWeb/assets/153503120/e241ab48-ebed-49fd-ba6c-01a3ca1efe34)
+
+ 
 - **Thêm, xóa, xem và tìm kiếm chi tiết thông tin nhân viên:**  
   ![Thêm nhân viên](https://github.com/hlewluv/CinemaWeb/assets/153503120/49519327-92bd-433d-b414-1a9a50088f9a)  
   ![Xóa nhân viên](https://github.com/hlewluv/CinemaWeb/assets/153503120/c1ced008-bfe1-42b6-821f-78379109db70)  
