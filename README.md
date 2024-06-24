@@ -10,6 +10,7 @@ Mô tả dự án:
 +) Cung cấp các báo cáo chi tiết về doanh thu và số lượng vé bán ra. 
 +) Đảm bảo quá trình thanh toán trực tuyến an toàn và bảo mật. 
 
+
 CƠ SỞ LÝ THUYẾT 
 - Ý tưởng 
 Với sự phát triển của công nghệ thông tin và nhu cầu giải trí ngày càng tăng cao, việc quản lý và vận hành rạp chiếu phim một cách hiệu quả trở thành một thách thức lớn. Ý tưởng của đề tài là xây dựng một hệ thống web quản lý rạp chiếu phim, nhằm cung cấp các công cụ và tiện ích giúp tự động hóa các quy trình quản lý, cải thiện trải nghiệm khách hàng, và tối ưu hóa hoạt động kinh doanh của rạp chiếu phim. 
@@ -36,6 +37,8 @@ Với sự phát triển của công nghệ thông tin và nhu cầu giải trí
 ![image](https://github.com/hlewluv/CinemaWeb/assets/153503120/5d7743af-6a49-4688-b159-595892731f21)
 - Biểu đồ cơ sở dữ liệu quan hệ:
 ![image](https://github.com/hlewluv/CinemaWeb/assets/153503120/8d86b55f-caac-4f13-bd1a-32bce164434c)
+
+SLIDE: https://www.canva.com/design/DAGH6uxpxYI/xoNk0n6kHSicgRIW1Odu7g/edit?utm_content=DAGH6uxpxYI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
 - Hình ảnh chụp màn hình:
   Giao diện chính của chương trình: ![image](https://github.com/hlewluv/CinemaWeb/assets/153503120/669e1595-090e-439a-b027-18e19d7e2877)
