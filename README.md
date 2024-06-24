@@ -128,6 +128,13 @@ Với sự phát triển của công nghệ thông tin và nhu cầu giải trí
   ![Giao diện khi quét mã QR thành công](https://github.com/hlewluv/CinemaWeb/assets/153503120/4bf1406d-acf4-4f5f-a090-1feafb3874d1)  
 
 ---
+### LINK YOUTUBE
+- **USER**  
+https://www.youtube.com/watch?v=q9XPyh1CHdQ
+- **ADMIN**  
+https://www.youtube.com/watch?v=-okqv4UfPxk
+- **STAFF**  
+https://www.youtube.com/watch?v=oZ1_g7VM5ko
 
 **Author:**  
 Lê Tự Bội Hoàng  
