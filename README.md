@@ -137,6 +137,6 @@ https://www.youtube.com/watch?v=-okqv4UfPxk
 https://www.youtube.com/watch?v=oZ1_g7VM5ko
 
 **Author:**  
-Lê Tự Bội Hoàng  
+Lê Tự Bội Hoàng(Thiết kế cơ sở dữ liệu, FE và BE cho phần Admin) 
 Hồ Thanh Huy  
 Võ Lê Quyên
